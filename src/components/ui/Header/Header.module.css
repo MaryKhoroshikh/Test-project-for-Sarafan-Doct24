@@ -1,17 +1,16 @@
 .header {
     background-color: #fff;
-    padding: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-between;
     align-items: center;
-    padding-inline: 50px;
+    width: 100%;
 }
 
 .logo {
     width: 50px;
     height: auto;
     align-self: center;
+    justify-self: center;
 }
 
 .nav {
@@ -20,18 +19,16 @@
 }
 
 .navButton {
-    padding: 10px 20px;
     border: none;
 }
 
 .navMenu {
     display: flex;
-    gap: 24px;
 }
 
 .navList {
     display: flex;
-    gap: 24px;
+    gap: 20px;
     padding: 0;
     margin: 0;
 }

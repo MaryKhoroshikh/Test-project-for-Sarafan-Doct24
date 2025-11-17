@@ -39,8 +39,10 @@ function CardList() {
 
     return (
         <div className={styles.cardList}>
-            <h2 className={styles.title}>Список продуктов</h2>
-            <Filter />
+            <div className={styles.title}>
+                <h2 >Список продуктов</h2>
+                <Filter />
+            </div>
             <div className={styles.content}>
                 {isLoading && <div className={styles.loading}>Загрузка...</div>}
                 {error && <div className={styles.error}>Ошибка: {error}</div>}
