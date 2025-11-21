@@ -40,7 +40,6 @@ function CardList() {
     return (
         <div className={styles.cardList}>
             <div className={styles.title}>
-                <h2 >Список продуктов</h2>
                 <Filter />
             </div>
             <div className={styles.content}>

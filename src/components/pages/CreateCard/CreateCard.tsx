@@ -5,7 +5,7 @@ import CreateCardForm from '../../ui/CreateCardForm/CreateCardForm';
 function CreateCard() {
     return (
         <div className={styles.createCard}>
-            <h2>Создать новую карточку продукта</h2>
+            <h2>Создание новой карточки</h2>
             <CreateCardForm />
         </div>
     );

@@ -13,9 +13,9 @@ const Header = () => {
                         <Link to={'/products'}>
                             <Button
                                 className={`${styles.navButton} ${location.pathname === '/products' ? styles.active : ''}`}
-                                aria-label='перейти на страницу продуктов'
+                                aria-label='перейти на страницу карточек'
                             >
-                                Продукты
+                                Карточки
                             </Button>
                         </Link>
                     </li>
@@ -23,9 +23,9 @@ const Header = () => {
                         <Link to={'/create-new-card'}>
                             <Button
                                 className={`${styles.navButton} ${location.pathname === '/create-new-card' ? styles.active : ''}`}
-                                aria-label='перейти на страницу создания нового продукта'
+                                aria-label='перейти на страницу создания новой карточки'
                             >
-                                Создать новый продукт
+                                Создать новую карточку
                             </Button>
                         </Link>
                     </li>
@@ -35,9 +35,9 @@ const Header = () => {
             <Link to={'https://salfa.ru/'} className={styles.logoLink}>
                 <div className={styles.logo}>
                     <img
-                        src='https://salfa.ru/wp-content/uploads/2025/04/Asset-11-1_edited-1.jpg'
-                        alt='Логотип компании по разработке сайтов и приложений'
-                        width='50'
+                        src='https://yaart-web-alice-images.s3.yandex.net/79115b65c6d211f0b5846676413dfd84:2'
+                        alt='Логотип'
+                        width='80'
                     ></img>
                 </div>
             </Link>

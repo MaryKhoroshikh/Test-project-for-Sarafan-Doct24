@@ -124,7 +124,7 @@ const CreateCardForm: React.FC = () => {
                     </div>
                     <div className={styles.formLabel}>
                         <label className={styles.label}>
-                            Дополнительная информация:
+                            Интересный факт:
                         </label>
                         <Field
                             className={styles.formField}
