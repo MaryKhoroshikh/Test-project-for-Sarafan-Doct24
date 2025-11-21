@@ -28,4 +28,4 @@ SPA, сервера нет, используются моковые данные
 - Tg: [goodmary1024](https://t.me/goodmary1024)
 
 ## Ссылки на дополнительные ресурсы
-- Сайт проекта: [https://marykhoroshikh.github.io/test/](https://marykhoroshikh.github.io/test/)
+- Сайт проекта: [https://marykhoroshikh.github.io/Trees/](https://marykhoroshikh.github.io/Trees/)
